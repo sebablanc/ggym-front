@@ -1,0 +1,4 @@
+.clientRegistationContainer{
+    display: flex;
+    flex-direction: column;
+}

@@ -1,0 +1,20 @@
+.header {
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+}
+
+.headerLink {
+    list-style-type: none;
+    background-color: rgb(175, 0, 0);
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.headerLink:hover {
+    background-color: rgb(226, 2, 2);
+}

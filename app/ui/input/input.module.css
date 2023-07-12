@@ -1,0 +1,43 @@
+.inputLabel{
+    margin-bottom: 5px;
+    font-size: 18px;
+    color: rgb(197, 197, 197);
+}
+
+.input {
+    margin-bottom: 30px;
+    background-color: transparent;
+    border: none;
+    font-size: 18px;
+    color: #FFFFFF;
+    width: 500px;
+    border-bottom: 1px solid rgb(197, 197, 197);
+}
+
+.input::placeholder{
+    font-size: 20px;
+    color: rgb(197, 197, 197);
+    opacity: 1;
+}
+
+.input:focus{
+    outline: none;
+}
+
+/* Chrome, Safari, Edge, Opera */
+.input::-webkit-outer-spin-button,
+.input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+.input[type=number] {
+  -moz-appearance: textfield;
+}
+
+@media all and (max-width: 700px){
+    .input{
+        width: calc(100vw - 40px);
+    }
+}
